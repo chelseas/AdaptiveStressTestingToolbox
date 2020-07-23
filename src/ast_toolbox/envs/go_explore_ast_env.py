@@ -9,7 +9,7 @@ import numpy as np
 import tensorflow as tf
 from bsddb3 import db
 from cached_property import cached_property
-from garage.envs.base import Step
+from garage.envs.step import Step
 from garage.envs.env_spec import EnvSpec
 from garage.misc.tensor_utils import flatten_tensors
 from garage.misc.tensor_utils import unflatten_tensors
